@@ -101,6 +101,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Welcome to Flutter',
       home: RandomWords(),
+      theme: ThemeData(
+        // Add the 3 lines from here...
+        primaryColor: Colors.white,
+      ),
       // home: Scaffold(
       //   appBar: AppBar(
       //     title: Text('Welcome to Flutter'),
